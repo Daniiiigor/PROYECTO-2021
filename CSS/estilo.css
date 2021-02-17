@@ -1,47 +1,59 @@
 h1{
 	color: pink;
 }
+.original{
+	width: 4.48%;
+}
+
 #cabecera{
 	position: absolute;
 	top: 2%;
-	left:2%;
-	height:10%;
-	width: 93%;
-	background-color: gray;
+	left:3.5%;
+	height:16%;
+	width: 94%;
+	background-color: 640000;
+	font-size: 72px;
+letter-spacing: 0.367em;
+
+
 }
 #indice{
 	position: absolute;
-	top: 13%;
+	top: 20%;
 	left:2%;
-	height:25%;
-	width: 75%;
-	background-color: lightgreen;
+	height:100%;
+	width: 17%;
+	background-color: 6f7a71;
+	font-size: 37px;
 }
 #contenido{
 	position: absolute;
-	top: 13%;
-	left:30%;
-	height:65%;
-	width: 75%;
-	background-color: lightblue;
+	top: 20%;
+	left:20%;
+	height:100%;
+	width: 60%;
+	background-color: 7065b8;
 }
 #piedepagina{
 	position: absolute;
-	top: 89%;
-	left:30%;
-	height:10%;
-	width: 65%;
-	background-color: gray;
+	top: 20%;
+	left:81%;
+	height:100%;
+	width: 18%;
+	background-color: lightgray;
+	    line-height: 1.8;
+    letter-spacing: 0.149em;
+    font-weight: 500;
+    font-size: 16px;
 }
 
-#button {
- padding: 0;
- }
 
-Este código elimina el padding que se puede crear por defecto en una lista de elementos, en este caso nuestro menú.
-
-Por defecto, estas listas se crean de forma vertical, pero nuestro menú tiene que ser horizontal, así que le diremos que se pongan en línea usando “display: inline.”
-
-#button li {
- display: inline;
+#button li a {
+	font-family: Arial;
+	font-size: 11px;
+	text-decoration: none;
+	float: left;
+	padding: 10px;
+	background-color: gray;
+	color:;
  }
