@@ -4,15 +4,45 @@ h1{
 .original{
 	width: 4.48%;
 }
+.foto1{
+	position: absolute;
+	width: 60%;
+	left: 3%;
+	top: 21%;
+}
+
+.foto2{
+	position: absolute;
+	width: 60%;
+	left: 36%;
+	top: 40%;
+}
+
+.foto3{
+	position: absolute;
+	width: 60%;
+	left: 3%;
+	top: 60%;
+}
+
+.foto4{
+	position: absolute;
+	width: 60%;
+	left: 36%;
+	top: 83%;
+}
+
+
 
 #cabecera{
+	color: white;
 	position: absolute;
-	top: 2%;
+	top:  2%;
 	left:3.5%;
 	height:16%;
 	width: 94%;
 	background-color: 640000;
-	font-size: 72px;
+	font-size: 450%;
 letter-spacing: 0.367em;
 
 
@@ -21,24 +51,27 @@ letter-spacing: 0.367em;
 	position: absolute;
 	top: 20%;
 	left:2%;
-	height:100%;
+	height:300%;
 	width: 17%;
 	background-color: 6f7a71;
 	font-size: 37px;
+
 }
 #contenido{
+	color: white;
 	position: absolute;
 	top: 20%;
 	left:20%;
-	height:100%;
+	height:300%;
 	width: 60%;
 	background-color: 7065b8;
+	font-size: 21px;
 }
 #piedepagina{
 	position: absolute;
 	top: 20%;
 	left:81%;
-	height:100%;
+	height:300%;
 	width: 18%;
 	background-color: lightgray;
 	    line-height: 1.8;
